@@ -5,4 +5,4 @@ data =[('A', 1, 2),
        ('E', 7, 8)]
 sorted_data = sorted(data, key=len)
 result = list(zip(*sorted_data))[0]
-print(result)
+print(list(result))
